@@ -27,7 +27,7 @@ class Body extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
-              text: "LOGIN",
+              text: "登 入",
               press: () {
                 Navigator.push(
                   context,
@@ -40,7 +40,7 @@ class Body extends StatelessWidget {
               },
             ),
             RoundedButton(
-              text: "SIGN UP",
+              text: "註 冊",
               color: kPrimaryLightColor,
               textColor: Colors.black,
               press: () {
